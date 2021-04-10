@@ -57,7 +57,7 @@
 #define configMAX_TASK_NAME_LEN             ( 8 )
 
 #define configQUEUE_REGISTRY_SIZE           0
-#define configCHECK_FOR_STACK_OVERFLOW      1
+#define configCHECK_FOR_STACK_OVERFLOW      2
 
 #define configUSE_TRACE_FACILITY            0
 #define configUSE_16_BIT_TICKS              1
