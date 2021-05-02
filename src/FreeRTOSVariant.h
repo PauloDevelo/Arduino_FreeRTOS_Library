@@ -37,7 +37,7 @@ extern "C" {
 // Use the Watchdog timer, and choose the rate at which scheduler interrupts will occur.
 
 #ifndef portUSE_WDTO
-    #define portUSE_WDTO        WDTO_15MS    // portUSE_WDTO to use the Watchdog Timer for xTaskIncrementTick
+    #define portUSE_WDTO        WDTO_60MS    // portUSE_WDTO to use the Watchdog Timer for xTaskIncrementTick
 #endif
 
 /* Watchdog period options:     WDTO_15MS
